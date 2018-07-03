@@ -23,12 +23,12 @@
 		C9B9102820EBDBFF0026F120 /* RxFloatingViewDataSourceProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9101620EBDBFF0026F120 /* RxFloatingViewDataSourceProxy.swift */; };
 		C9B9102920EBDBFF0026F120 /* RxFloatingViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9101720EBDBFF0026F120 /* RxFloatingViewDelegateProxy.swift */; };
 		C9B9102A20EBDBFF0026F120 /* RxFloatingViewDataSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9101820EBDBFF0026F120 /* RxFloatingViewDataSourceType.swift */; };
+		C9B9102D20EBE13C0026F120 /* BxFloating.podspec in Sources */ = {isa = PBXBuildFile; fileRef = C9B9102C20EBE13C0026F120 /* BxFloating.podspec */; };
 		C9CDDDA2207D019400F03C3E /* BxFloating.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CDDD98207D019400F03C3E /* BxFloating.framework */; };
 		C9CDDDA7207D019400F03C3E /* BxFloatingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CDDDA6207D019400F03C3E /* BxFloatingTests.swift */; };
 		C9CDDDA9207D019400F03C3E /* BxFloating.h in Headers */ = {isa = PBXBuildFile; fileRef = C9CDDD9B207D019400F03C3E /* BxFloating.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9CDDDB4207D01BC00F03C3E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C9CDDDB2207D01BC00F03C3E /* LICENSE */; };
 		C9CDDDB5207D01BC00F03C3E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C9CDDDB3207D01BC00F03C3E /* README.md */; };
-		C9CDDDB7207D01CC00F03C3E /* BxFloating.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C9CDDDB6207D01CC00F03C3E /* BxFloating.podspec */; };
 		C9CDDDD2207D02DC00F03C3E /* BxUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CDDDD1207D02DC00F03C3E /* BxUtility.framework */; };
 		C9CDDDD4207D02E000F03C3E /* BxUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CDDDD3207D02E000F03C3E /* BxUI.framework */; };
 /* End PBXBuildFile section */
@@ -63,6 +63,7 @@
 		C9B9101620EBDBFF0026F120 /* RxFloatingViewDataSourceProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxFloatingViewDataSourceProxy.swift; sourceTree = "<group>"; };
 		C9B9101720EBDBFF0026F120 /* RxFloatingViewDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxFloatingViewDelegateProxy.swift; sourceTree = "<group>"; };
 		C9B9101820EBDBFF0026F120 /* RxFloatingViewDataSourceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxFloatingViewDataSourceType.swift; sourceTree = "<group>"; };
+		C9B9102C20EBE13C0026F120 /* BxFloating.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = BxFloating.podspec; sourceTree = "<group>"; };
 		C9CDDD98207D019400F03C3E /* BxFloating.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BxFloating.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CDDD9B207D019400F03C3E /* BxFloating.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BxFloating.h; sourceTree = "<group>"; };
 		C9CDDD9C207D019400F03C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,7 +72,6 @@
 		C9CDDDA8207D019400F03C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9CDDDB2207D01BC00F03C3E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C9CDDDB3207D01BC00F03C3E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C9CDDDB6207D01CC00F03C3E /* BxFloating.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BxFloating.podspec; sourceTree = "<group>"; };
 		C9CDDDD1207D02DC00F03C3E /* BxUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BxUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CDDDD3207D02E000F03C3E /* BxUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BxUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D287F41FCF8A11D5A60767EB /* Pods-BxFloating.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BxFloating.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-BxFloating/Pods-BxFloating.debug.xcconfig"; sourceTree = "<group>"; };
@@ -150,7 +150,7 @@
 			children = (
 				C9CDDDB2207D01BC00F03C3E /* LICENSE */,
 				C9CDDDB3207D01BC00F03C3E /* README.md */,
-				C9CDDDB6207D01CC00F03C3E /* BxFloating.podspec */,
+				C9B9102C20EBE13C0026F120 /* BxFloating.podspec */,
 				C9CDDD9A207D019400F03C3E /* BxFloating */,
 				C9CDDDA5207D019400F03C3E /* BxFloatingTests */,
 				C9CDDD99207D019400F03C3E /* Products */,
@@ -307,7 +307,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9CDDDB5207D01BC00F03C3E /* README.md in Resources */,
-				C9CDDDB7207D01CC00F03C3E /* BxFloating.podspec in Resources */,
 				C9CDDDB4207D01BC00F03C3E /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,6 +390,7 @@
 				C9B9102620EBDBFF0026F120 /* RxFloatingViewReactiveArrayDataSource.swift in Sources */,
 				C9B9101E20EBDBFF0026F120 /* FloatingViewDelegate.swift in Sources */,
 				C9B9102120EBDBFF0026F120 /* FloatingSceneDelegate.swift in Sources */,
+				C9B9102D20EBE13C0026F120 /* BxFloating.podspec in Sources */,
 				C9B9101A20EBDBFF0026F120 /* FloatingViewAnimators.swift in Sources */,
 				C9B9101F20EBDBFF0026F120 /* FloatingView.swift in Sources */,
 				C9B9102720EBDBFF0026F120 /* FloatingView+Rx.swift in Sources */,
