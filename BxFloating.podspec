@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name             = 'BxFloating'
-    s.version = '0.1.2'
+    s.version = '0.1.3'
     s.swift_version    = '4.1'
     s.summary          = 'Incredibly easy floating views on iOS.'
 
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     s.platform = :ios
     s.ios.deployment_target = '11.0'
 
-    s.source_files = 'BxCoding/**/*'
+    s.source_files = 'BxFloating/**/*'
 
     s.dependency 'RxSwift'
     s.dependency 'RxCocoa'
